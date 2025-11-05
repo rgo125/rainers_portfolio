@@ -97,6 +97,10 @@
 }
 
 @media (max-width: 1060px) {
+    .all-layout{
+        width: 95%;
+    }
+
     .grid-cell{
         margin: 5px;
         border-radius: 10px;
@@ -106,6 +110,7 @@
 @media (max-width: 639px){
     .all-layout{
         grid-template-columns: 40% 30% 30%;
+        width: 100%;
     }
 
     .right-container{
