@@ -7,7 +7,7 @@
 
 .grid-cell{
     background-color: rgb(255, 255, 255);
-    border-radius: 20px;
+    border-radius: 1vw;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.352);
     margin: 10px;
     transition: transform 0.5s ease, background-color 0.5s ease;
@@ -103,7 +103,6 @@
 
     .grid-cell{
         margin: 5px;
-        border-radius: 10px;
     }
 }
 
@@ -131,6 +130,7 @@
     .path{
         grid-column: 2/3;
         grid-row: 2/3;
+        aspect-ratio: 1/1;
     }
 
     .artissn-landing{
