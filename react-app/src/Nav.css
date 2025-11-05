@@ -1,0 +1,83 @@
+nav{
+  background-image: linear-gradient(#4670d99f, #81b3ffa9);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  margin: 0;
+  color: white;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.174);
+}
+
+h1{
+  margin: 20px;
+  padding: 0;
+  font-weight: 500;
+  font-size: 2.8rem;
+}
+
+.my-name{
+  color: transparent;
+  text-shadow: 1px 1px 1px rgb(255, 255, 255), 0 0 0 rgba(0, 0, 0, 0.526);
+}
+
+.pages{
+  margin-right: 100px;
+}
+
+a{
+  font-size: x-large;
+  margin: 20px;
+}
+
+.nav-link:hover{
+  color: rgb(95, 95, 95);
+}
+
+.nav-link{
+  color: rgb(0, 0, 0);
+}
+
+.nav-link-active{
+  color: rgb(66, 66, 66);
+}
+
+.nav-link-active:hover{
+  color: rgb(66, 66, 66);
+  cursor: default;
+}
+
+@media (max-width: 1060px) {
+  h1{
+    font-size: 2.2rem;
+  }
+  a{
+    font-size: large;
+  }
+  .pages{
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 782px){
+  h1{
+    font-size: 1.5rem;
+  }
+
+  a{
+    font-size: medium;
+  }
+}
+
+@media (max-width: 639px){
+  h1{
+    font-size: 2rem;
+    margin: 5px;
+  }
+  nav{
+    flex-direction: column;
+  }
+  .pages{
+    margin: 10px 0;
+  }
+}
