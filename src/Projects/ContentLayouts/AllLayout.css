@@ -102,3 +102,70 @@
         border-radius: 10px;
     }
 }
+
+@media (max-width: 639px){
+    .all-layout{
+        grid-template-columns: 40% 30% 30%;
+    }
+
+    .right-container{
+        grid-column: 2/4;
+        grid-row: 1/2;
+    }
+
+    .wild-card{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .face-swap{
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    .path{
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    .artissn-landing{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .decis-tree{
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+
+    .bottom-container-1{
+        display: block;
+        grid-column: 2/3;
+        grid-row: 3/6;
+        z-index: 1;
+    }
+
+    .emergence{
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+
+    .humanoid{
+
+    }
+
+    .arap{
+
+    }
+
+    .ai-videos{
+      grid-column: 3/4;
+      grid-row: 3/5;
+      z-index: 1;
+    }
+
+    .idk{
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+}
