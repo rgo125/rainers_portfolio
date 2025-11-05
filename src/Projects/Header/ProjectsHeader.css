@@ -162,8 +162,8 @@ h3{
     }
 
     .link-button{
-        font-size: small;
-        padding: 7px;
+        font-size: x-small;
+        padding: 5px;
         border-radius: 9px;
     }
 
@@ -178,7 +178,7 @@ h3{
 
     .contact-button{
         padding: 12px;
-        font-size: medium;
+        font-size: small;
     }
 
     .filter{
