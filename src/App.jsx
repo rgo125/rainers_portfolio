@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Nav from "./Nav.jsx";
 import Projects from "./Projects/Projects.jsx"
 
@@ -12,13 +12,13 @@ function Resume() {
 
 export default function App() {
   return (
-    <Router>  {/* Wraps everything that uses routing */}
+    <BrowserRouter basename="/rainers_portfolio">  {/* Wraps everything that uses routing */}
       <Nav />
       <Routes>
         <Route path="/" element={<Projects />} />
         <Route path="/about" element={<About />} />
         <Route path="/resume" element={<Resume />} />
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 }
