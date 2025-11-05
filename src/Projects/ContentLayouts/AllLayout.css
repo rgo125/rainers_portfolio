@@ -112,6 +112,10 @@
         width: 100%;
     }
 
+    .grid-cell{
+        border-radius: 2vw;
+    }
+
     .right-container{
         grid-column: 2/4;
         grid-row: 1/2;
@@ -120,17 +124,20 @@
     .wild-card{
         grid-column: 1/2;
         grid-row: 2/3;
+        z-index: 1;
     }
 
     .face-swap{
         grid-column: 1/2;
         grid-row: 3/4;
+        z-index: 1;
     }
 
     .path{
         grid-column: 2/3;
         grid-row: 2/3;
         aspect-ratio: 1/1;
+        z-index: 1;
     }
 
     .artissn-landing{
@@ -141,6 +148,7 @@
     .decis-tree{
         grid-column: 3/4;
         grid-row: 2/3;
+        z-index: 1;
     }
 
     .bottom-container-1{
@@ -155,14 +163,6 @@
         grid-row: 4/5;
     }
 
-    .humanoid{
-
-    }
-
-    .arap{
-
-    }
-
     .ai-videos{
       grid-column: 3/4;
       grid-row: 3/5;
@@ -172,5 +172,6 @@
     .idk{
         grid-column: 1/2;
         grid-row: 4/5;
+        z-index: 1;
     }
 }
