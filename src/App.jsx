@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Nav from "./Nav";
+import Nav from "./Nav.jsx";
 import Projects from "./Projects/Projects.jsx"
 
 function About() {
