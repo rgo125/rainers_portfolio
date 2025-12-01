@@ -1,0 +1,128 @@
+{
+  "ARTISSN (2025)": {
+    "title": "ARTISSN (2025)",
+    "images": [
+      "v1764201724/full_mockups_miemnx.png",
+      "v1764202522/full_view_mockups_cjkkdy.png",
+      "v1764201724/projects_grid_xi7lez.png",
+      "v1764201705/projects_grid_ylrxe7.png",
+      "v1764201728/top_bids_list_z5gtvz.png",
+      "v1764201704/top_bids_ld3dzv.png",
+      "v1764201725/scene_expanded_vieew_cbjwkb.png",
+      "v1764201705/scenes_expanded_xbthmm.png",
+      "v1764201726/script_view_clfffh.png",
+      "v1764201704/script_mezgel.png"
+    ],
+    "about": {
+      "links": {
+        "artissn.com": "https://artissn.com",
+        "Figma": "https://www.figma.com/design/k46GLXxt94xqHmYdo9ISpG/Artissn_designs?node-id=0-1&p=f&t=TderPG25v8eW2KzT-0"
+      },
+      "categories": [
+        "UI",
+        "Code"
+      ],
+      "description": "An AI-powered marketplace for product placement in film & TV. Filmmakers upload their screenplays where we use AI to parse out potential product placement opportunities. Brands can then bid on these opportunities, which the filmmaker can either accept or decline. I worked on the UI/UX design through extensive FIgma mockups and conversations with our main engineer. I also worked on frontend development for several iterations of demos for the MVP as well as the landing page."
+    },
+    "documentation": {
+      "UI": {
+        "links": {
+          "Figma": "https://www.figma.com/design/k46GLXxt94xqHmYdo9ISpG/Artissn_designs?node-id=0-1&p=f&t=TderPG25v8eW2KzT-0"
+        },
+        "images": [
+          "v1764201724/full_mockups_miemnx.png",
+          "v1764202522/full_view_mockups_cjkkdy.png",
+          "v1764201724/projects_grid_xi7lez.png",
+          "v1764201705/projects_grid_ylrxe7.png",
+          "v1764201728/top_bids_list_z5gtvz.png",
+          "v1764201704/top_bids_ld3dzv.png",
+          "v1764201725/scene_expanded_vieew_cbjwkb.png",
+          "v1764201705/scenes_expanded_xbthmm.png",
+          "v1764201726/script_view_clfffh.png",
+          "v1764201704/script_mezgel.png"
+        ]
+      }
+    }
+  },
+
+  "Rainer's Portfolio (2025)": {
+    "title": "Rainer's Portfolio (2025)",
+    "images": [
+      "v1764620175/Frame_12-3_jrlitv.png",
+      "v1764620232/Frame_13_sibut1.png",
+      "v1764620255/Frame_8_xmmnpv.png"
+    ],
+    "about": {
+      "links": {
+        "GitHub": "https://github.com/rgo125/rainers_portfolio",
+        "Figma": "https://www.figma.com/design/KnPwyNqz551wcMOntDrxrh/My-website?node-id=0-1&p=f&t=i7Unrs9Z5pocJzXc-0"
+      },
+      "categories": [
+        "Animation",
+        "Code"
+      ],
+      "description": "A portfolio to showcase all my awesome projects (and that you're looking at right now!). I designed the website in Figma. I wanted to keep it simple and intuitive while still being pretty. I built the website in React, with a robust system for displaying metadata for each project using a JSON file and smart rules for rendering components. I also integrated an image CDN to ensure the website is memory efficient across any device.",
+      "full_movie": "Url for movie"
+    },
+    "documentation": {
+      "Animation": {
+        "links": [
+          "YouTube"
+        ],
+        "images": [
+          "Image 1 url"
+        ]
+      },
+      "Code": {
+        "links": [
+          "GitHub"
+        ],
+        "videos": [
+          "Video url"
+        ],
+        "images": [
+          "Image 1 url"
+        ]
+      }
+    }
+  },
+
+  "Wild Card (2025)": {
+    "images": [
+      "Image 1 url"
+    ],
+    "about": {
+      "links": [
+        "GitHub",
+        "YouTube"
+      ],
+      "categories": [
+        "Animation",
+        "Code"
+      ],
+      "description": "Blah blah blah",
+      "full_movie": "Url for movie"
+    },
+    "documentation": {
+      "Animation": {
+        "links": [
+          "YouTube"
+        ],
+        "images": [
+          "Image 1 url"
+        ]
+      },
+      "Code": {
+        "links": [
+          "GitHub"
+        ],
+        "videos": [
+          "Video url"
+        ],
+        "images": [
+          "Image 1 url"
+        ]
+      }
+    }
+  }
+}
