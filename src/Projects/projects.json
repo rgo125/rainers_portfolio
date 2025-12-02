@@ -88,19 +88,223 @@
   },
 
   "Wild Card (2025)": {
+    "title": "Wild Card (2025)",
     "images": [
-      "Image 1 url"
+      "v1764635300/GardnerOlesen_Rainer_Image3_hv70bp.png",
+      "v1764635305/GardnerOlesen_Rainer_Image2_k3jwlk.tiff",
+      "v1764114106/GardnerOlesen_Rainer_Image1_sarrkc.tiff",
+      "v1764635303/GardnerOlesen_Rainer_Image4_j4nqkh.png"
     ],
     "about": {
-      "links": [
-        "GitHub",
-        "YouTube"
-      ],
+      "links": {
+        "GitHub": "https://github.com/rgo125/final-project-lilnasyxers.git",
+        "Procedural Backgrounds": "https://www.youtube.com/watch?v=1jRFnKs0GC8",
+        "RISD": "https://favshow.risd.edu/Rainer-Gardner-Olesen-1"
+      },
       "categories": [
         "Animation",
         "Code"
       ],
-      "description": "Blah blah blah",
+      "description": "3D animated short film about a space station, floating through the galaxy. It is infiltrated by a mysterious figure. As he maneuvers around the complex maze that is the space station, it leaves us to wonder what he’s after. This was my senior thesis at the Rhode Island School of Design. I used Maya for modelling and rigging characters and a mix of motion-capture data and manual keyframing for animating them. Fluid simulations were done in Houdini. Backgrounds were done procedurally a C++ script, that generated points along a maze which I could generate customa assets along to fill out the space. Check out the GitHub for that project and the full video on how I applied it to this project!",
+      "full_movie": "Url for movie"
+    },
+    "documentation": {
+      "Animation": {
+        "links": [
+          "YouTube"
+        ],
+        "images": [
+          "Image 1 url"
+        ]
+      },
+      "Code": {
+        "links": [
+          "GitHub"
+        ],
+        "videos": [
+          "Video url"
+        ],
+        "images": [
+          "Image 1 url"
+        ]
+      }
+    }
+  },
+
+  "Dancing With My Shadow (2025)": {
+    "title": "Dancing With My Shadow (2025)",
+    "images": [
+      "v1764117215/daiella_image_flhl2y.png",
+      "v1764636333/Screenshot_2025-12-01_at_4.43.26_PM_txcss2.png",
+      "v1764636328/Screenshot_2025-12-01_at_4.44.10_PM_b1pjds.png"
+    ],
+    "about": {
+      "links": {
+        "VFX": "https://www.youtube.com/watch?v=3qLYDGIxJis&t=13s",
+        "Full Video": "https://www.youtube.com/watch?v=BKXSJ0xOtbE"
+      },
+      "categories": [
+        "Animation",
+        "Code"
+      ],
+      "description": "Music Video for Dancing With My Shadow by R&B artist Daiella. I did the VFX for the project in Houdini. I went over and expanded upon the art direction with the director in order to develop both artstic and technical workflows. We wanted to capture the essence of the singer's world \"disintegrating\" around her. I implemented this into a node-based workflow in Houdini that was a combination of perlin-noise and a smoke simulation used to drive the displacement of quads in the mesh.",
+      "full_movie": "Url for movie"
+    },
+    "documentation": {
+      "Animation": {
+        "links": [
+          "YouTube"
+        ],
+        "images": [
+          "Image 1 url"
+        ]
+      },
+      "Code": {
+        "links": [
+          "GitHub"
+        ],
+        "videos": [
+          "Video url"
+        ],
+        "images": [
+          "Image 1 url"
+        ]
+      }
+    }
+  },
+  "ARTISSN Face Swap": {
+    "title": "ARTISSN Face Swap (2025)",
+    "images": [
+      "v1764179219/face_swap_side_by_side_b17bxc.png"
+    ],
+    "about": {
+      "links": {
+      },
+      "categories": [
+        "Animation",
+        "Code"
+      ],
+      "description": "Face swap solution for an HBO documentary. Worked off of a third-party codebase to train a model to output high-quality deepfakes to be used in production.",
+      "full_movie": "Url for movie"
+    },
+    "documentation": {
+      "Animation": {
+        "links": [
+          "YouTube"
+        ],
+        "images": [
+          "Image 1 url"
+        ]
+      },
+      "Code": {
+        "links": [
+          "GitHub"
+        ],
+        "videos": [
+          "Video url"
+        ],
+        "images": [
+          "Image 1 url"
+        ]
+      }
+    }
+  },
+  "Pathtracer": {
+    "title": "Pathtracer (2025)",
+    "images": [
+      "v1764116930/refraction_wmddzt.png",
+      "v1764637938/glossy_ovvauj.png",
+      "v1764637937/cornell_box_full_lighting_kwczti.png",
+      "v1764637945/mirror_i3vlcy.png"
+    ],
+    "about": {
+      "links": {
+        "GitHub": "https://github.com/rgo125/path"
+      },
+      "categories": [
+        "Animation",
+        "Code"
+      ],
+      "description": "This project implements a physics-based renderer that simulates realistic light transport across a scene, using Monte Carlo Integration and Hemisphere Sampling to model recursive light bounces and create physically-accurate reflection and refractions with Total Internal Reflections. Multiple BRDFs including Lambertian diffuse, glossy, and perfectly specular are implemented to accurately model how light interacts with various surface types.",
+      "full_movie": "Url for movie"
+    },
+    "documentation": {
+      "Animation": {
+        "links": [
+          "YouTube"
+        ],
+        "images": [
+          "Image 1 url"
+        ]
+      },
+      "Code": {
+        "links": [
+          "GitHub"
+        ],
+        "videos": [
+          "Video url"
+        ],
+        "images": [
+          "Image 1 url"
+        ]
+      }
+    }
+  },
+  "Decision Tree": {
+    "title": "Decision Tree (2024)",
+    "images": [
+      "v1764183882/decis_tree_nrsaih.svg"
+    ],
+    "about": {
+      "links": {
+        "GitHub": "https://github.com/rgo125/pr01-decision-tree.git"
+      },
+      "categories": [
+        "Animation",
+        "Code"
+      ],
+      "description": "This project is a from-scratch implementation of a decision tree classifier in Java, featuring custom data structures, tree-building logic, and evaluation tools. It includes classes for representing datasets and rows, parsing CSV files, constructing decision trees using attribute-based splits, and evaluating predictions on test data. The system models tree components such as attribute nodes, value edges, and decision leaves, enabling the classifier to navigate through the tree and determine outcomes for new inputs. A dedicated testing framework validates dataset operations and tree generation, demonstrating a strong grasp of machine learning fundamentals, recursive algorithms, and object-oriented design.",
+      "full_movie": "Url for movie"
+    },
+    "documentation": {
+      "Animation": {
+        "links": [
+          "YouTube"
+        ],
+        "images": [
+          "Image 1 url"
+        ]
+      },
+      "Code": {
+        "links": [
+          "GitHub"
+        ],
+        "videos": [
+          "Video url"
+        ],
+        "images": [
+          "Image 1 url"
+        ]
+      }
+    }
+  },
+  "Emergence": {
+    "title": "Emergence (2024)",
+    "images": [
+      "v1764117562/Translation_thumbnail_gn5l5l.png",
+      "v1764639730/Screenshot_2025-12-01_at_5.41.05_PM_oivvxj.png",
+      "v1764639531/Screenshot_2025-12-01_at_5.37.41_PM_zi4iya.png",
+      "v1764639723/Screenshot_2025-12-01_at_5.40.36_PM_oqsmrf.png"
+    ],
+    "about": {
+      "links": {
+        "Documentation": "https://vimeo.com/1002852906"
+      },
+      "categories": [
+        "Animation",
+        "Code"
+      ],
+      "description": "A fully automated simulation of the cellular process of mRNA translation. I made this for the game \"Emergence\" during my time interning at Adroit Studios. The physics and functionality was coded in Unity and then brought into Blender to render a cinematic. I begin explaining the process at 1:45 in the video linked.",
       "full_movie": "Url for movie"
     },
     "documentation": {

@@ -64,19 +64,21 @@ export default function AllLayout() {
   return (
     <div className='all-layout'>
 
-      <div ref={setRef('wild-card')} className='grid-cell wild-card'
+      <Link to='wild-card' ref={setRef('wild-card')} className='grid-cell wild-card'
         style={{ backgroundImage: `url(${getImageUrl('v1764114106/GardnerOlesen_Rainer_Image1_sarrkc.tiff', 'wild-card')})` }} />
+      {/* <div ref={setRef('wild-card')} className='grid-cell wild-card'
+        style={{ backgroundImage: `url(${getImageUrl('v1764114106/GardnerOlesen_Rainer_Image1_sarrkc.tiff', 'wild-card')})` }} /> */}
 
-      <div ref={setRef('face-swap')} className='grid-cell face-swap'
+      <Link to='face-swap' ref={setRef('face-swap')} className='grid-cell face-swap'
         style={{ backgroundImage: `url(${getImageUrl('v1764179219/face_swap_side_by_side_b17bxc.png', 'face-swap')})` }} />
 
-      <div ref={setRef('path')} className='grid-cell path'
+      <Link to ='path' ref={setRef('path')} className='grid-cell path'
         style={{ backgroundImage: `url(${getImageUrl('v1764116930/refraction_wmddzt.png', 'path')})` }} />
 
       <Link to='artissn-landing' ref={setRef('artissn-landing')} className='grid-cell artissn-landing'
         style={{ backgroundImage: `url(${getImageUrl('v1764180517/artissn_tech_mockup_roi66a.png', 'artissn-landing')})` }} />
 
-      <div ref={setRef('decis-tree')} className='grid-cell decis-tree'
+      <Link to= 'decis-tree' ref={setRef('decis-tree')} className='grid-cell decis-tree'
         style={{ backgroundImage: `url(${getImageUrl('v1764183882/decis_tree_nrsaih.svg', 'decis-tree')})` }} />
 
       <div className='right-container'>
@@ -86,12 +88,15 @@ export default function AllLayout() {
         {/* <div ref={setRef('website')} className='grid-cell website'
           style={{ backgroundImage: `url(${getImageUrl('v1764117053/Frame_32_yhwebg.png', 'website')})` }} /> */}
 
-        <div ref={setRef('daiella')} className='grid-cell daiella'
-          style={{ backgroundImage: `url(${getImageUrl('v1764117215/daiella_image_flhl2y.png', 'daiella')})` }} />
+          <Link className='no-margin' to='daiella'><div ref={setRef('daiella')} className='grid-cell daiella'
+          style={{ backgroundImage: `url(${getImageUrl('v1764117215/daiella_image_flhl2y.png', 'daiella')})` }} /></Link>
+
+        {/* <div ref={setRef('daiella')} className='grid-cell daiella'
+          style={{ backgroundImage: `url(${getImageUrl('v1764117215/daiella_image_flhl2y.png', 'daiella')})` }} /> */}
       </div>
 
       <div className='bottom-container-1'>
-        <div ref={setRef('emergence')} className='grid-cell emergence'
+        <Link to='emergence' ref={setRef('emergence')} className='grid-cell emergence'
           style={{ backgroundImage: `url(${getImageUrl('v1764117562/Translation_thumbnail_gn5l5l.png', 'emergence')})` }} />
 
         <div ref={setRef('humanoid')} className='grid-cell humanoid'

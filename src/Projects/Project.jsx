@@ -20,7 +20,7 @@ function ProjectHeader({title}){
 }
 
 function MainSection({images, about}){
-    console.log(about['description']);
+    console.log("rerendering main section");
     return<><div className="mainSectionContainer">
             <ImageViewContainer images={images}/>
             <AboutContainer about={about}/></div></>
@@ -42,6 +42,7 @@ function AboutContainer({about}){
 }
 
 function ImageViewContainer({images}){
+  console.log("rerendering image view")
   const imageViewRef = useRef();
 
   const [myImages, setMyImages] = useState([]);
@@ -118,7 +119,7 @@ function ImageViewContainer({images}){
 
 
 export default function Project({metadata}){
-  console.log(metadata);
+  console.log("rerendering project");
     return<><ProjectHeader title={metadata['title']}/>
             <MainSection images={metadata['images']} about={metadata['about']}/></>
 }
