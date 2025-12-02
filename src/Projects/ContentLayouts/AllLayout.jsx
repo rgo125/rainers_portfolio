@@ -106,14 +106,14 @@ export default function AllLayout() {
         {/* <Link to='humanoid' ref={setRef('humanoid')} className='grid-cell humanoid'
           style={{ backgroundImage: `url(${getImageUrl('v1764117696/Frame_44_mfa1ob.png', 'humanoid')})` }} /> */}
 
-        <div ref={setRef('arap')} className='grid-cell arap'
+        <Link to='arap' ref={setRef('arap')} className='grid-cell arap'
           style={{ backgroundImage: `url(${getImageUrl('v1764185079/arap_clntl4.png', 'arap')})` }} />
       </div>
 
-      <div ref={setRef('idk')} className='grid-cell idk'
+      <Link to='all-i-see' ref={setRef('idk')} className='grid-cell idk'
         style={{ backgroundImage: `url(${getImageUrl('v1764184591/Screenshot_2024-08-16_at_6.15.29_PM_uftfdm.png', 'idk')})` }} />
 
-      <div ref={setRef('ai-videos')} className='grid-cell ai-videos'
+      <Link to='ai-videos' ref={setRef('ai-videos')} className='grid-cell ai-videos'
         style={{ backgroundImage: `url(${getImageUrl('v1764117429/IMG_3283_vcded5.png', 'ai-videos')})` }} />
 
     </div>

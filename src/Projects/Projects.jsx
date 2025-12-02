@@ -29,6 +29,9 @@ export default function Projects(){
                     <Route path="decis-tree" element={<Project metadata={projectsData["Decision Tree"]}/>}/>
                     <Route path="emergence" element={<Project metadata={projectsData["Emergence"]}/>}/>
                     <Route path="humanoid" element={<Project metadata={projectsData["Humanoid"]}/>}/>
+                    <Route path="arap" element={<Project metadata={projectsData["ARAP"]}/>}/>
+                    <Route path="all-i-see" element={<Project metadata={projectsData["All I See"]}/>}/>
+                    <Route path="ai-videos" element={<Project metadata={projectsData["AI Videos"]}/>}/>
                     {/* Other project routes would follow in similar fashion. */}
                 </Routes>
             </div>

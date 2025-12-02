@@ -365,5 +365,124 @@
         ]
       }
     }
+  },
+  "ARAP": {
+    "title": "As Rigid As Possible Surface Modelling (ARAP) (2025)",
+    "images": [
+      "v1764185079/arap_clntl4.png",
+      "v1764704457/Screenshot_2025-12-02_at_11.38.22_AM_wtowgr.png",
+      "v1764704456/Screenshot_2025-12-02_at_11.38.06_AM_wzj5k8.png",
+      "v1764704465/Screenshot_2025-12-02_at_11.38.58_AM_szodpo.png"
+    ],
+    "about": {
+      "links": {
+        "GitHub": "https://github.com/rgo125/arap.git",
+        "Original Paper": "https://igl.ethz.ch/projects/ARAP/arap_web.pdf"
+      },
+      "categories": [
+        "Animation",
+        "Code"
+      ],
+      "description": "For this project, I implemented as rigid as possible surface modeling. This method is essentially an optimization problem that deforms a mesh \"as rigidly as possible\" given the constraints of a few vertices being set as anchors that can be manipulated freely by the user. Meshes are able to be deformed by clicking and dragging vertices, but they are able to maintain their form to some degree. This process consisted of solving a sparse linear matrix to find the best fit positions for every vertex in the mesh.",
+      "full_movie": "Url for movie"
+    },
+    "documentation": {
+      "Animation": {
+        "links": [
+          "YouTube"
+        ],
+        "images": [
+          "Image 1 url"
+        ]
+      },
+      "Code": {
+        "links": [
+          "GitHub"
+        ],
+        "videos": [
+          "Video url"
+        ],
+        "images": [
+          "Image 1 url"
+        ]
+      }
+    }
+  },
+  "All I See": {
+    "title": "All I See Now... (2023)",
+    "images": [
+      "v1764184591/Screenshot_2024-08-16_at_6.15.29_PM_uftfdm.png"
+    ],
+    "about": {
+      "links": {
+        "Full Video": "https://www.youtube.com/watch?v=K7marOb2CB0"
+      },
+      "categories": [
+        "Animation",
+        "Code"
+      ],
+      "description": "Short film made during my sophomore year. Made using a unique blend of 3D digital elements as well as physical elements such as acrylic paint and hot glue.",
+      "full_movie": "Url for movie"
+    },
+    "documentation": {
+      "Animation": {
+        "links": [
+          "YouTube"
+        ],
+        "images": [
+          "Image 1 url"
+        ]
+      },
+      "Code": {
+        "links": [
+          "GitHub"
+        ],
+        "videos": [
+          "Video url"
+        ],
+        "images": [
+          "Image 1 url"
+        ]
+      }
+    }
+  },
+  "AI Videos": {
+    "title": "AI Video Experiments (2025)",
+    "images": [
+      "v1764117429/IMG_3283_vcded5.png",
+      "v1764705563/Screenshot_2025-12-02_at_11.58.44_AM_laa31t.png"
+    ],
+    "about": {
+      "links": {
+        "IG Post": "https://www.instagram.com/p/DLlKzRQR5dA/"
+      },
+      "categories": [
+        "Animation",
+        "Code"
+      ],
+      "description": "A few experiments with AI video generation. I collected a dataset of images from Pinterest that I liked and trained a LoRa for the image generation model: Flux. I used that to output some images and then brought them into Kling to add motion.",
+      "full_movie": "Url for movie"
+    },
+    "documentation": {
+      "Animation": {
+        "links": [
+          "YouTube"
+        ],
+        "images": [
+          "Image 1 url"
+        ]
+      },
+      "Code": {
+        "links": [
+          "GitHub"
+        ],
+        "videos": [
+          "Video url"
+        ],
+        "images": [
+          "Image 1 url"
+        ]
+      }
+    }
   }
 }
