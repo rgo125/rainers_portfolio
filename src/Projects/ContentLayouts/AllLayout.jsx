@@ -69,8 +69,10 @@ export default function AllLayout() {
       {/* <div ref={setRef('wild-card')} className='grid-cell wild-card'
         style={{ backgroundImage: `url(${getImageUrl('v1764114106/GardnerOlesen_Rainer_Image1_sarrkc.tiff', 'wild-card')})` }} /> */}
 
-      <Link to='face-swap' ref={setRef('face-swap')} className='grid-cell face-swap'
-        style={{ backgroundImage: `url(${getImageUrl('v1764179219/face_swap_side_by_side_b17bxc.png', 'face-swap')})` }} />
+      {/* <Link to='face-swap' ref={setRef('face-swap')} className='grid-cell face-swap'
+        style={{ backgroundImage: `url(${getImageUrl('v1764179219/face_swap_side_by_side_b17bxc.png', 'face-swap')})` }} /> */}
+      <Link to='humanoid' ref={setRef('humanoid')} className='grid-cell humanoid'
+          style={{ backgroundImage: `url(${getImageUrl('v1764117696/Frame_44_mfa1ob.png', 'humanoid')})` }} />
 
       <Link to ='path' ref={setRef('path')} className='grid-cell path'
         style={{ backgroundImage: `url(${getImageUrl('v1764116930/refraction_wmddzt.png', 'path')})` }} />
@@ -99,8 +101,10 @@ export default function AllLayout() {
         <Link to='emergence' ref={setRef('emergence')} className='grid-cell emergence'
           style={{ backgroundImage: `url(${getImageUrl('v1764117562/Translation_thumbnail_gn5l5l.png', 'emergence')})` }} />
 
-        <div ref={setRef('humanoid')} className='grid-cell humanoid'
-          style={{ backgroundImage: `url(${getImageUrl('v1764117696/Frame_44_mfa1ob.png', 'humanoid')})` }} />
+        <Link to='face-swap' ref={setRef('face-swap')} className='grid-cell face-swap'
+          style={{ backgroundImage: `url(${getImageUrl('v1764179219/face_swap_side_by_side_b17bxc.png', 'face-swap')})` }} />
+        {/* <Link to='humanoid' ref={setRef('humanoid')} className='grid-cell humanoid'
+          style={{ backgroundImage: `url(${getImageUrl('v1764117696/Frame_44_mfa1ob.png', 'humanoid')})` }} /> */}
 
         <div ref={setRef('arap')} className='grid-cell arap'
           style={{ backgroundImage: `url(${getImageUrl('v1764185079/arap_clntl4.png', 'arap')})` }} />

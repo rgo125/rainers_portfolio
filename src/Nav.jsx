@@ -10,8 +10,8 @@ function Nav() {
         <h1 className='my-name'>Rainer Gardner-Olesen</h1>
         <div className="pages">
           <NavLink to="/" className={navLinkClass}>Projects</NavLink>
-          <NavLink to="/about" className={navLinkClass}>About</NavLink>
-          <NavLink to="/resume" className={navLinkClass}>Resume</NavLink>
+          {/* <NavLink to="/about" className={navLinkClass}>About</NavLink>
+          <NavLink to="/resume" className={navLinkClass}>Resume</NavLink> */}
         </div>
       </nav>
     </>

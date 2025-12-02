@@ -2,15 +2,9 @@
   "ARTISSN (2025)": {
     "title": "ARTISSN (2025)",
     "images": [
-      "v1764201724/full_mockups_miemnx.png",
-      "v1764202522/full_view_mockups_cjkkdy.png",
-      "v1764201724/projects_grid_xi7lez.png",
+      "v1764702148/Screenshot_2025-11-01_at_7.28.37_PM_ohgfau.png",
       "v1764201705/projects_grid_ylrxe7.png",
-      "v1764201728/top_bids_list_z5gtvz.png",
       "v1764201704/top_bids_ld3dzv.png",
-      "v1764201725/scene_expanded_vieew_cbjwkb.png",
-      "v1764201705/scenes_expanded_xbthmm.png",
-      "v1764201726/script_view_clfffh.png",
       "v1764201704/script_mezgel.png"
     ],
     "about": {
@@ -97,6 +91,7 @@
     ],
     "about": {
       "links": {
+        "Full Video": "https://youtu.be/m6B87CEPH2I",
         "GitHub": "https://github.com/rgo125/final-project-lilnasyxers.git",
         "Procedural Backgrounds": "https://www.youtube.com/watch?v=1jRFnKs0GC8",
         "RISD": "https://favshow.risd.edu/Rainer-Gardner-Olesen-1"
@@ -305,6 +300,48 @@
         "Code"
       ],
       "description": "A fully automated simulation of the cellular process of mRNA translation. I made this for the game \"Emergence\" during my time interning at Adroit Studios. The physics and functionality was coded in Unity and then brought into Blender to render a cinematic. I begin explaining the process at 1:45 in the video linked.",
+      "full_movie": "Url for movie"
+    },
+    "documentation": {
+      "Animation": {
+        "links": [
+          "YouTube"
+        ],
+        "images": [
+          "Image 1 url"
+        ]
+      },
+      "Code": {
+        "links": [
+          "GitHub"
+        ],
+        "videos": [
+          "Video url"
+        ],
+        "images": [
+          "Image 1 url"
+        ]
+      }
+    }
+  },
+  "Humanoid": {
+    "title": "Deep Mimic (Training a Humanoid to Walk With Reinforcement Learning) (2025)",
+    "images": [
+      "v1764117696/Frame_44_mfa1ob.png",
+      "v1764702942/Screenshot_2025-12-02_at_11.14.56_AM_gzqdyr.png",
+      "v1764703085/Screenshot_2025-12-02_at_11.17.21_AM_wbu5gy.png"
+    ],
+    "about": {
+      "links": {
+        "GitHub": "https://github.com/effypelayotran/DeepMimic.git",
+        "Original Paper": "https://xbpeng.github.io/projects/DeepMimic/index.html",
+        "Presentation Slides": "https://docs.google.com/presentation/d/1fNaSF0vc3GV75YXFUuxBOuI8nCAfdlioqXwulEFPVus/edit?slide=id.p#slide=id.p"
+      },
+      "categories": [
+        "Animation",
+        "Code"
+      ],
+      "description": "An implementation of the research paper: Deep Mimic. The project involved training a humanoid character to perform bipedal movements such as walking and running using Reinforcement Learning in a 3D simulated environment. What makes this project unique compared to other RL methods is the fact that motion-capture data is to accelerate the training process. Reward is given to the agent for staying up right and moving in a straight line, but also for following the motion-capture data given to it. This gave us much higher quality resutls compared to the pure RL methods.",
       "full_movie": "Url for movie"
     },
     "documentation": {
