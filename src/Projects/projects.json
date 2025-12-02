@@ -16,7 +16,7 @@
         "UI",
         "Code"
       ],
-      "description": "An AI-powered marketplace for product placement in film & TV. Filmmakers upload their screenplays where we use AI to parse out potential product placement opportunities. Brands can then bid on these opportunities, which the filmmaker can either accept or decline. I worked on the UI/UX design through extensive FIgma mockups and conversations with our main engineer. I also worked on frontend development for several iterations of demos for the MVP as well as the landing page."
+      "description": "An AI-powered marketplace for product placement in film & TV. Filmmakers upload their screenplays, where we use AI to parse out potential product placement opportunities. Brands can then bid on these opportunities, which the filmmaker can either accept or decline. I worked on the UI/UX design through extensive FIgma mockups and conversations with our main engineer. I also worked on frontend development for several iterations of the MVP as well as the landing page."
     },
     "documentation": {
       "UI": {
@@ -55,7 +55,7 @@
         "Animation",
         "Code"
       ],
-      "description": "A portfolio to showcase all my awesome projects (and that you're looking at right now!). I designed the website in Figma. I wanted to keep it simple and intuitive while still being pretty. I built the website in React, with a robust system for displaying metadata for each project using a JSON file and smart rules for rendering components. I also integrated an image CDN to ensure the website is memory efficient across any device.",
+      "description": "A portfolio to showcase all my awesome projects (and that you're looking at right now!). I designed the website in Figma. I wanted to keep it simple and intuitive but also pretty. I built the website in React, with a robust system for displaying metadata for each project, using a large JSON file and smart rules for rendering components. I also integrated an image CDN to ensure the website is memory efficient across any device.",
       "full_movie": "Url for movie"
     },
     "documentation": {
@@ -100,7 +100,7 @@
         "Animation",
         "Code"
       ],
-      "description": "3D animated short film about a space station, floating through the galaxy. It is infiltrated by a mysterious figure. As he maneuvers around the complex maze that is the space station, it leaves us to wonder what he’s after. This was my senior thesis at the Rhode Island School of Design. I used Maya for modelling and rigging characters and a mix of motion-capture data and manual keyframing for animating them. Fluid simulations were done in Houdini. Backgrounds were done procedurally a C++ script, that generated points along a maze which I could generate customa assets along to fill out the space. Check out the GitHub for that project and the full video on how I applied it to this project!",
+      "description": "3D animated short film about a space station, floating through the galaxy. It is infiltrated by a mysterious figure. As he maneuvers around the complex maze that is the space station, it leaves us to wonder what he’s after. This was my senior thesis at the Rhode Island School of Design. I used Maya for modelling and rigging characters and a mix of motion-capture data and manual keyframing for animating them. Fluid simulations were done in Houdini. Backgrounds were done procedurally through a C++ script, that generated points along a maze which I could sample custom assets along to fill out the space. Check out the GitHub for that project and the video on how I used this method for procedural backgrounds!",
       "full_movie": "Url for movie"
     },
     "documentation": {
@@ -142,7 +142,7 @@
         "Animation",
         "Code"
       ],
-      "description": "Music Video for Dancing With My Shadow by R&B artist Daiella. I did the VFX for the project in Houdini. I went over and expanded upon the art direction with the director in order to develop both artstic and technical workflows. We wanted to capture the essence of the singer's world \"disintegrating\" around her. I implemented this into a node-based workflow in Houdini that was a combination of perlin-noise and a smoke simulation used to drive the displacement of quads in the mesh.",
+      "description": "Music Video for Dancing With My Shadow by R&B artist Daiella. I did the VFX for the project in Houdini. I went over and expanded upon the art direction with the director in order to develop both artstic and technical workflows. We wanted to capture the essence of the singer's world \"disintegrating\" around her. I did this by implementing a node-based workflow in Houdini, combining perlin-noise and smoke simulation, to drive the displacement of quads in the mesh, achieving the desired effect.",
       "full_movie": "Url for movie"
     },
     "documentation": {
@@ -299,7 +299,7 @@
         "Animation",
         "Code"
       ],
-      "description": "A fully automated simulation of the cellular process of mRNA translation. I made this for the game \"Emergence\" during my time interning at Adroit Studios. The physics and functionality was coded in Unity and then brought into Blender to render a cinematic. I begin explaining the process at 1:45 in the video linked.",
+      "description": "A fully automated simulation of the cellular process of mRNA translation. I made this for the game \"Emergence\" during my time interning at Adroit Studios. The physics and functionality was coded in Unity and then brought into Blender to render a cinematic. I begin explaining the process at 1:45 in the documentation video linked.",
       "full_movie": "Url for movie"
     },
     "documentation": {
@@ -341,7 +341,7 @@
         "Animation",
         "Code"
       ],
-      "description": "An implementation of the research paper: Deep Mimic. The project involved training a humanoid character to perform bipedal movements such as walking and running using Reinforcement Learning in a 3D simulated environment. What makes this project unique compared to other RL methods is the fact that motion-capture data is to accelerate the training process. Reward is given to the agent for staying up right and moving in a straight line, but also for following the motion-capture data given to it. This gave us much higher quality resutls compared to the pure RL methods.",
+      "description": "An implementation of the research paper: Deep Mimic. The project involved training a humanoid character to perform bipedal movements such as walking and running using Reinforcement Learning in a 3D simulated environment. What makes this project unique compared to other RL methods is the fact that motion-capture data is used to accelerate the training process. Reward is given to the agent for staying up right and moving in a straight line, but also for following the motion-capture data given to it. This gave us much higher quality results compared to pure RL methods.",
       "full_movie": "Url for movie"
     },
     "documentation": {
